@@ -2,9 +2,9 @@ function Bird() {
 	this.y = height/2;
 	this.x = 64;
 
-	this.gravity = 0.6;
-	this.lift = -10;
-	this.velocity = 0;
+	this.gravity = 0.3;
+	this.lift = -16;
+	this.velocity = -2;
 
 	this.show = function() {
 		fill(255);
@@ -13,11 +13,12 @@ function Bird() {
 
 	this.up = function(){
 		this.velocity += this.lift;
-		print(this.velocity);
+		//print(this.velocity);
 	}
 
 	this.update = function(){
 		this.velocity += this.gravity;
+		this.velocity += 0.9;
 		this.y += this.velocity;
 
 		//need bird to stop at bottom

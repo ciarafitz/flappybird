@@ -1,12 +1,40 @@
-Compile:
-How to Run:
-How to Use:
-Dependecies:
-Bugs:
+# Welcome to my Flappybird Project!
+Below are the steps on how the project works including *bugs* and future *additions*.
 
+## How to Run: 
 
+* Run *index.html*
+* Dependencies below **must be met before running**.
 
-# Welcome to p5.js
+## How to Use:
+
+* Simple game of *Flappybird* where the user presses **spacebar** to fly through the green pipes without hiting them.
+    * Pipes turn **red** when *hit*.
+
+## Dependecies:
+* **p5.js**
+    * Download from https://p5js.org/download/
+* Verify that your current version of your web browser supports p5.js
+    * **Note: Old versions of Internet Explorer and Safari may not be supported**.
+
+##  Bugs:
+
+* There is a lack with the game and the pipe speed needs to be be slower. (1/24/22)
+* The bird needs its velocity, gravity, and lift adjusted. (1/24/22)
+* Game does not fully fill screen width. (1/24/22)
+* Adjust minimum size for pipes. Bird needs to be able to fit through. (1/24/22)
+
+## Additions for the Future:
+
+* Add score 
+    * Hit pipes that turn *red* 
+        * **(- negative points)**
+    * Get through *green* pipe 
+        * **(+ positive points)**
+* Change background from black to an image.
+* Change bird into image of a bird or another animal. 
+
+# p5.js Documentation:
 
 You have downloaded the complete p5.js library ZIP file, yay!
 
